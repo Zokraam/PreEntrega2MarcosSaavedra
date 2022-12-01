@@ -39,7 +39,7 @@
             </a>
           </div>
           <div class="col">
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg text-center">
               <div class="container">
                 <button
                   class="navbar-toggler bg-light"
@@ -98,22 +98,54 @@
       </div>
     </header>
     <main>
-      <div class="container">
-        <div>
-          <h1 class="display animate__animated animate__slideInRight">
-            Sabes que ponerte
-          </h1>
-        </div>
-      </div>
-      <div class="container">
-        <div>
-          <h3 class="display2 animate__animated animate__slideInLeft">
-            Productos Importados y Nacionales
-          </h3>
+      <div class="container mb-1 text-center">
+        <div class="text-light animate__animated animate__slideInLeft">
+          <p
+            class="card fs-5 color-dark mt-1 mb-1"
+            style="background-color: #0000009f"
+          >
+            Si tenes alguna consulta con respecto a nuestros productos o estas
+            interesado en su distribucion, completa nuestro formulario y nos
+            pondremos en contacto con usted.
+          </p>
+          <form action="">
+            <section class="form-register">
+              <input
+                class="controls"
+                type="text"
+                name="nombre"
+                id="nombre"
+                placeholder="Nombre y Apellido"
+              />
+              <input
+                class="controls"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+              />
+              <input
+                class="controls"
+                type="text"
+                name="telefono"
+                id="telefono"
+                placeholder="Telefono"
+              />
+              <textarea
+                class="controls"
+                name="mensaje"
+                id="mensaje"
+                cols="30"
+                rows="10"
+                placeholder="Mensaje"
+              ></textarea>
+              <input class="botons" type="submit" value="Enviar" />
+            </section>
+          </form>
         </div>
       </div>
     </main>
-    <footer class="fixed-bottom">
+    <footer>
       <div class="container text-center animate__animated animate__slideInLeft">
         <div
           class="btn-group p-1"
