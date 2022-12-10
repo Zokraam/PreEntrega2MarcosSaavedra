@@ -1,0 +1,32 @@
+.font {
+  font-family: $font;
+  font-size: 13vh;
+}
+
+.font2 {
+  font-family: $font;
+  font-size: 4vh;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+  .font {
+    font-family: $font;
+    font-size: 6vh;
+  }
+
+  .font2 {
+    font-family: $font;
+    font-size: 2.5vh;
+    text-transform: uppercase;
+  }
+
+  .display {
+    padding-top: 25%;
+  }
+}
+
+.display {
+  margin-top: 4%;
+  padding: 6%;
+}

@@ -3,52 +3,63 @@ body {
   background-size: 100%;
   background-attachment: fixed;
 }
-body header {
+
+@media (max-width: 1200px) {
+  body {
+    background-image: url(../img/background.jpg);
+    background-size: auto 100vh;
+    background-position: 35% 100vh;
+  }
+}
+header {
   background-color: black;
   max-width: 100%;
 }
 @media (min-width: 1200px) {
-  body header .logo {
+  header .logo {
     max-width: 50%;
   }
 }
-body .display {
-  padding-top: 25%;
-}
-@media (min-width: 1200px) {
-  body .display {
-    margin-top: 4%;
-    padding: 6%;
-  }
-}
-body .font {
+
+.font {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 13vh;
 }
-body .font2 {
+
+.font2 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 4vh;
   text-transform: uppercase;
 }
+
 @media (max-width: 1200px) {
-  body .font {
+  .font {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 6vh;
   }
-  body .font2 {
+  .font2 {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 2.5vh;
     text-transform: uppercase;
   }
+  .display {
+    padding-top: 25%;
+  }
 }
-body .form-register {
+.display {
+  margin-top: 4%;
+  padding: 6%;
+}
+
+.form-register {
   width: 80%;
   border-radius: 4px;
   margin: 2% auto 0 auto;
   font-family: "calibri";
   color: white;
 }
-body .controls {
+
+.controls {
   width: 100%;
   background: rgba(255, 251, 195, 0.767);
   padding: 1%;
@@ -59,7 +70,8 @@ body .controls {
   font-size: 18px;
   color: rgb(3, 3, 3);
 }
-body .botons {
+
+.botons {
   width: 100%;
   background: #3b3b3b;
   border: none;
@@ -69,28 +81,22 @@ body .botons {
   font-size: 16px;
   cursor: pointer;
 }
-body .botons:hover {
+
+.botons:hover {
   color: yellow;
 }
-body footer {
+
+footer {
   background-color: black;
   max-width: 100%;
 }
-body footer .derechos_reservados {
+footer .derechos_reservados {
   opacity: 25%;
   color: white;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   padding: 0%;
   border-top: white 5%;
-}
-
-@media (max-width: 1200px) {
-  body {
-    background-image: url(../img/background.jpg);
-    background-size: auto 100vh;
-    background-position: 35% 100vh;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */

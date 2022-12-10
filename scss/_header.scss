@@ -1,0 +1,10 @@
+header {
+  background-color: black;
+  max-width: 100%;
+
+  @media (min-width: 1200px) {
+    .logo {
+      max-width: 50%;
+    }
+  }
+}
