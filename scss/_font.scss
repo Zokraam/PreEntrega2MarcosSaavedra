@@ -1,23 +1,19 @@
 .font {
-  font-family: $font;
-  font-size: 13vh;
+  @include font($font, 13vh);
 }
 
 .font2 {
-  font-family: $font;
-  font-size: 4vh;
+  @include font($font, 4vh);
   text-transform: uppercase;
 }
 
 @media (max-width: 1200px) {
   .font {
-    font-family: $font;
-    font-size: 6vh;
+    @include font($font, 6vh);
   }
 
   .font2 {
-    font-family: $font;
-    font-size: 2.5vh;
+    @include font($font, 2.5vh);
     text-transform: uppercase;
   }
 
