@@ -24,6 +24,7 @@ header {
 .font {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 13vh;
+  text-transform: uppercase;
 }
 
 .font2 {
@@ -36,6 +37,7 @@ header {
   .font {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 6vh;
+    text-transform: uppercase;
   }
   .font2 {
     font-family: "Roboto Condensed", sans-serif;
