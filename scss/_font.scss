@@ -6,6 +6,10 @@
   @include font($font, 4vh);
 }
 
+.font3 {
+  @include font($font, 4vh);
+}
+
 .display {
   margin-top: 10%;
 }
@@ -17,6 +21,10 @@
 
   .font2 {
     @include font($font, 2vh);
+  }
+
+  .font3 {
+    @include font($font, 3vh);
   }
 
   .display {
