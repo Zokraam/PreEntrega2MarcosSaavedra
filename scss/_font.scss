@@ -12,14 +12,14 @@
 
 @media (max-width: 1200px) {
   .font {
-    @include font($font, 6vh);
+    @include font($font, 5vh);
   }
 
   .font2 {
-    @include font($font, 2.5vh);
+    @include font($font, 2.2vh);
   }
 
   .display {
-    margin-top: 25%;
+    margin-top: 40%;
   }
 }
