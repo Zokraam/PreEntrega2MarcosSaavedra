@@ -6,6 +6,10 @@
   @include font($font, 4vh);
 }
 
+.display {
+  margin-top: 10%;
+}
+
 @media (max-width: 1200px) {
   .font {
     @include font($font, 6vh);
@@ -16,11 +20,6 @@
   }
 
   .display {
-    padding-top: 25%;
+    margin-top: 25%;
   }
-}
-
-.display {
-  margin-top: 4%;
-  padding: 6%;
 }

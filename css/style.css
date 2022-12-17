@@ -33,6 +33,10 @@ header {
   text-transform: uppercase;
 }
 
+.display {
+  margin-top: 10%;
+}
+
 @media (max-width: 1200px) {
   .font {
     font-family: "Roboto Condensed", sans-serif;
@@ -45,14 +49,9 @@ header {
     text-transform: uppercase;
   }
   .display {
-    padding-top: 25%;
+    margin-top: 25%;
   }
 }
-.display {
-  margin-top: 4%;
-  padding: 6%;
-}
-
 .form-register {
   width: 80%;
   border-radius: 4px;
