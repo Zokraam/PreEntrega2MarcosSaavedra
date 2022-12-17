@@ -15,9 +15,12 @@ header {
   background-color: black;
   max-width: 100%;
 }
-@media (min-width: 1200px) {
+header .logo {
+  max-width: 30vh;
+}
+@media (max-width: 1200px) {
   header .logo {
-    max-width: 50%;
+    max-width: 50vh;
   }
 }
 

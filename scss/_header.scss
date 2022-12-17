@@ -2,9 +2,13 @@ header {
   background-color: $primary-color;
   max-width: 100%;
 
-  @media (min-width: 1200px) {
+  .logo {
+    max-width: 30vh;
+  }
+
+  @media (max-width: 1200px) {
     .logo {
-      max-width: 50%;
+      max-width: 50vh;
     }
   }
 }
