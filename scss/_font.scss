@@ -6,7 +6,7 @@
   @include font($font, 4vh);
 }
 
-.font3 {
+.font-prod {
   @include font($font, 4vh);
 }
 
@@ -23,7 +23,7 @@
     @include font($font, 2vh);
   }
 
-  .font3 {
+  .font-prod {
     @include font($font, 3vh);
   }
 

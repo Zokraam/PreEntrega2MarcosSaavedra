@@ -36,7 +36,7 @@ header .logo {
   text-transform: uppercase;
 }
 
-.font3 {
+.font-prod {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 4vh;
   text-transform: uppercase;
@@ -57,7 +57,7 @@ header .logo {
     font-size: 2vh;
     text-transform: uppercase;
   }
-  .font3 {
+  .font-prod {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 3vh;
     text-transform: uppercase;
